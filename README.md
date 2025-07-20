@@ -48,7 +48,11 @@ The system then:
 
 ClauseMind/
 ├── parser/ → Query parser using LLM
+
 ├── retriever/ → Embedding + semantic search
+
 ├── decision/ → Decision logic engine
+
 ├── app/ → Streamlit-based frontend
+
 ├── docs/ → Sample documents
