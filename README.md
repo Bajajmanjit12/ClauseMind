@@ -47,12 +47,8 @@ The system then:
 ## 📦 Folder Structure
 
 ClauseMind/
-├── app/               # Streamlit or Flask frontend
-├── parser/            # Query parser using LLM
-├── retriever/         # Embedding and retrieval (RAG)
-├── decision/          # Logic/rule-based evaluator
-├── docs/              # Sample policy/contract documents
-├── test_queries/      # Example queries for testing
-├── utils/             # File loaders, embedding helpers, etc.
-├── requirements.txt   # Python dependencies
-└── README.md
+├── parser/ → Query parser using LLM
+├── retriever/ → Embedding + semantic search
+├── decision/ → Decision logic engine
+├── app/ → Streamlit-based frontend
+├── docs/ → Sample documents
