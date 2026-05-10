@@ -1,0 +1,7 @@
+groq
+python-dotenv
+flask
+PyPDF2
+faiss-cpu
+sentence-transformers
+langchain  # used only for text splitters if desired
