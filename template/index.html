@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Insurance LLM Assistant</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Insurance LLM Assistant</h1>
+
+    <form method="post">
+
+      <input type="text" name="query" placeholder="Ask policy related question..." required>
+
+      <button type="submit">
+        Ask
+      </button>
+
+    </form>
+
+    {% if answer %}
+
+    <div class="answer">
+
+      <h2>Answer</h2>
+
+      <p>{{ answer }}</p>
+
+    </div>
+
+    {% endif %}
+
+  </div>
+
+</body>
+
+</html>
